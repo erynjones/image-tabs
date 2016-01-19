@@ -28,7 +28,7 @@ body {
   padding: 0;
   list-style-type: none;
   position: relative;
-  bottom: -315px;
+  bottom: 0px;
   text-align: center;
 }
 
@@ -54,26 +54,11 @@ body {
 }
 
 .images {
-  position: relative;
+  padding-bottom: .5em;
+  width: 100%;
 }
 
-.one {
-  position: absolute;
-}
-
-.two {
-  position: absolute;
-}
-
-.three {
-  position: absolute;
-}
-
-.four {
-  position: absolute;
-}
-
-.five {
+.one .two .three .four .five {
   position: absolute;
 }
 
