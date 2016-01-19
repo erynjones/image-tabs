@@ -18,8 +18,69 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .tabs {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  position: relative;
+  bottom: -315px;
+  text-align: center;
 }
+
+.tabs > li {
+  display: inline-block;
+}
+
+.tabs a {
+  display: inline-block;
+  background-color: #fff;
+  border: solid 4px #000;
+  border-radius: 15px;
+  width: 25px;
+  height: 25px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  transition: all 100ms linear;
+}
+
+.tabs a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.images {
+  position: relative;
+}
+
+.one {
+  position: absolute;
+}
+
+.two {
+  position: absolute;
+}
+
+.three {
+  position: absolute;
+}
+
+.four {
+  position: absolute;
+}
+
+.five {
+  position: absolute;
+}
+
+img {
+  display: none;
+}
+
+img:target {
+  display: block;
+ }
